@@ -8,13 +8,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    transition: background-color 0.9s;
     width: 100%;
-}
-
-.dark-mode {
-    background-color: #333;
-    color: #fff;
 }
 
 .container {
