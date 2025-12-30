@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUSFINDER-LOGIN</title>
+    <link rel="stylesheet" href="assets/css/login.css">
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <div class="logo">
+                <a href="index.html"><span class="logotxt">BUSFINDER</span></a>
+                <a href="index.html">
+                    <div class="busimg"><img src="assets/images/login page/img1.png" alt=""></div>
+                </a>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="contactus.html">CONTACT US</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="login.html">LOG IN</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container">
+            <div class="containerone">
+                <div class="imgone">
+                    <img src="assets/images/login page/img 1 road.jpg" alt="">
+                </div>
+            </div>
+            <div class="containertwo">
+
+                <div class="bxotwo">
+                    <form action="" method="get" onsubmit="return validate();">
+                        <h1>Login Here</h1>
+                        <label for="fname">User Name </label>
+                        <input type="text" name="fname" id="fname" placeholder="Enter your Username">
+                        <span class="error" id="fnameError"></span>
+                        <label for="email">Email </label>
+                        <input type="email" name="email" id="email" placeholder="Enter your Email"><span class="error"
+                            id="emailError"></span>
+                        <label for="pass">Password </label>
+                        <input type="password" name="pass" id="pass" placeholder="Enter your Password"><span
+                            class="error" id="passError"></span>
+                        <a href="index.html"><input type="submit" value="Login" id="login"></a>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="foot">
+            <div class="footbox1">
+                <span class="footheading">CONTACT US</span>
+                <div class="headingtxt">
+                    <ul>
+                        <li>Phone : +911234567890 </li>
+                        <li>Email : manu@gmail.com</li>
+                        <li>Address : Himachal Pradesh, India</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footbox2">
+                <span class="footheading">SOCIAL LINKS</span>
+                <div class="headingtxt1">
+                    <ul>
+                        <li><a href=""></a><img src="assets/images/login page/facebook.svg " alt=""></li>
+                        <li><a href=""></a><img src="assets/images/login page/twitter.svg" alt=""></li>
+                        <li><a href=""></a><img src="assets/images/login page/youtube.svg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+    </footer>
+    <script src="assets/js/login.js"></script>
+</body>
+
+</html>
